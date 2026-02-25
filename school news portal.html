@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School News Portal</title>
+</head>
+<body>
+
+<main>
+    <section>
+        <h1>Student Enrollment Form</h1>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend><strong>Personal Information</strong></legend>
+
+                <p>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" required>
+                </p>
+                
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required>
+                </p>
+
+                <fieldset>
+                    <legend>Gender</legend>
+
+                    <label>
+                        <input type="radio" name="gender" value="male" required>
+                        Male
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="gender" value="female">
+                        Female
+                    </label><br>
+
+                    <label>
+                        <input type="radio" name="gender" value="prefer-not">
+                        Prefer not to say
+                    </label>
+                </fieldset>
+
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Course Information</strong></legend>
+
+                <p>
+                    <label for="course">Course of Interest:</label><br>
+                    <select id="course" name="course" required>
+                        <option value="">- Select a Course -</option>
+                        <option value="web-dev">Web Development</option>
+                        <option value="data-science">Data Science</option>
+                        <option value="graphics">Graphic Design</option>
+                        <option value="cybersecurity">Cybersecurity</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="message">Message / Additional Info:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40"></textarea>
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Agreement</strong></legend>
+
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    I agree to the Terms and Conditions
+                </label>
+            </fieldset>
+
+            <p>
+                <button type="submit">Submit</button>
+            </p>
+
+        </form>
+    </section>
+</main>
+
+
+<!-- footer section -->
+<footer>
+    <p><strong>ENSG Digital Academy</strong></p>
+    <p>&copy; 2026 ENSG Digital Academy. All rights reserved.</p>
+
+    <dl>
+        <dt>Address:</dt>
+        <dd>101 ENSG road, Turing Tech Avenue, Abuja.</dd>
+
+        <dt>Phone:</dt>
+        <dd>+234 123 4567</dd>
+
+        <dt>Email:</dt>
+        <dd>info@ensgdigitalacademy.edu</dd>
+    </dl>
+</footer>
+
+</body>
+</html>
